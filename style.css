@@ -16,22 +16,24 @@ body{
 /* Navigation*/
 @media only screen and (min-width:425px){
     
-.logo {
-    float: left;
-    height: 200px;
-    width: 200px;
-    padding: 1%, 1%;
-    }    
-    
-nav {
-    display: flex;
-    padding: 1,5% 2.5%;
-    justify-content: space-between;
-    align-items: center;
+  .logo {
+    height: 10vw;
+    width: 10vw;
+    padding: 0.5% 0.5%;
 }
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5% 2.5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav-links {
-    display: flex;
-    text-align: right;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 .nav-links ul {
     display: flex;
@@ -82,9 +84,19 @@ nav {
 
 /* Hompage */
 
-.Webpage {
-    margin-top: 15px;
+.logoContainer {
+  position: relative;
+  float: right;
+  left: auto;
+  right: 6%;
 }
+.computerLogo {
+  height: 15vw;
+  width: 15vw;
+  margin-left: 0%;
+  float: right;
+}
+
 .Webpage h1 { 
     color: #f2602bc7;
     font-family: 'Open Sans', sans-serif;
@@ -128,18 +140,7 @@ nav {
     font-size: 20px;
 }
 
-.logoContainer {
-    position: absolute;
-    margin-left: 85%; 
-  }
 
-.computerLogo {
-    display: inline-block;
-    height: 260px;
-    width: 260px;
-    vertical-align: middle;
-    margin: left 10%;
-  }
 
 
 .Webpage-bottom{
@@ -153,8 +154,8 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 198px;
-    padding: 5px;
+    margin-top: 5%;
+    padding: 1%;
 }
 .bottom-text {
     margin-top: 1%;
@@ -171,19 +172,22 @@ nav {
 
 .blue-box {
     position: relative;
-    display: flex;
+    display: left;
     align-items: center;
     justify-content: center;
-    background-color: #5aa0f5;
+    background-color: #f2602bc7;
+    border: 2.5px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
     
 }
 
 .blue-box img {
-  margin: 10px;
-  padding: 5px;
-  width: 450px;
-  height: 500px;
-  border: 2px solid black;
+  margin: 2.5%;
+  padding: 5%;
+  width: 35vh;
+  height: 35vh;
+  border: 0.5px solid black;
 }
 
 .prev,
@@ -198,11 +202,11 @@ nav {
 }
 
 .prev {
-  left: 425px;
+  left: 5%;
 }
 
 .next {
-  right: 425px;
+  right: 70%;
 }
 
 
@@ -217,8 +221,8 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 198px;
-    padding: 5px;
+    margin-top: 10%;
+    padding: 1%;
 }
 .bottom-text1 {
     margin-top: 1%;
@@ -262,9 +266,6 @@ nav {
     background-color: #faf7f7;
   }
 
-  .careers-form.row {
-
-  }
   
   .careers-form label {
     display: block;
