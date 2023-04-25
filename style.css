@@ -1,0 +1,419 @@
+/* This is the styling sheet that styles the Homepage */
+/* Note: Each page is referneced by Webpage[num], for example, Webpage2. */
+
+/* For the backround & body */
+/* #ef8b11 Backround Orange, #f2602bc7 Header Orange, #5aa0f5 Backround blue */
+
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FDF7EC;
+    background-position: center;
+    background-size: cover; 
+    position: relative;   
+}
+/* Navigation*/
+@media only screen and (min-width:425px){
+    
+.logo {
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding: 1%, 1%;
+    }    
+    
+nav {
+    display: flex;
+    padding: 1,5% 2.5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    text-align: right;
+}
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-links ul li {
+    margin-right: 70px;
+    padding: 6px 8px;
+    position:relative
+}
+.nav-links ul li a {
+    color: #ef8b11;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    opacity: 1;
+    transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
+}
+.nav-links ul li::after {
+    content: '';
+    width: 100%;
+    height: 2.5px;
+    background-color:rgba(52, 33, 3, 0.2);
+    display: block;
+    margin: auto;
+}
+    
+    
+    
+.nav-links ul li:hover a {
+    color: #ffffff;
+     background-color: #5aa0f5;
+
+}
+.nav-links ul li:active a {
+    color: #ffffff;
+    background-color:#ef8b11;
+}
+.nav-links ul li a.activeProfile {
+    color: #ffffff;
+    background-color:#ef8b11;
+    
+}
+
+/* Hompage */
+
+.Webpage {
+    margin-top: 15px;
+}
+.Webpage h1 { 
+    color: #f2602bc7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 7%;
+    text-align: left;
+    position: relative;
+    font-style:normal;
+
+  }
+
+  .Webpage h2{
+    color: #f2602bc7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 7%;
+    text-align: left;
+    position: relative;
+    font-style:normal;
+}
+
+.Webpage .txtContainer {
+    margin-left: 7%;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+}
+
+.Webpage .txtContainer p {
+    color: #000000;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    clear:right
+}
+
+.Webpage .txtContainer p a {
+    color: #000000;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.logoContainer {
+    position: absolute;
+    margin-left: 85%; 
+  }
+
+.computerLogo {
+    display: inline-block;
+    height: 260px;
+    width: 260px;
+    vertical-align: middle;
+    margin: left 10%;
+  }
+
+
+.Webpage-bottom{
+    position: absolute;
+    left: 49%;
+    width: 102%;
+    transform: translate(-50%,10%);
+    height: 80px;
+    background-color: #ef8b11;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 198px;
+    padding: 5px;
+}
+.bottom-text {
+    margin-top: 1%;
+    width: 350px;
+    text-align: center;
+
+}
+.bottom-text, .bottom-text a {
+    width: 50%; 
+    text-decoration: none;
+    color:#ffffff
+}
+/* Profiles */ 
+
+.blue-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5aa0f5;
+    
+}
+
+.blue-box img {
+  margin: 10px;
+  padding: 5px;
+  width: 450px;
+  height: 500px;
+  border: 2px solid black;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.prev {
+  left: 425px;
+}
+
+.next {
+  right: 425px;
+}
+
+
+.Webpage-bottom1{
+    position: absolute;
+    left: 49%;
+    width: 102%;
+    transform: translate(-50%,10%);
+    height: 80px;
+    background-color: #ef8b11;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 198px;
+    padding: 5px;
+}
+.bottom-text1 {
+    margin-top: 1%;
+    width: 350px;
+    text-align: center;
+
+}
+.bottom-text1, .bottom-text1 a {
+    width: 50%; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Careers */
+
+.Webpage2 {
+    align-items: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .Webpage-top {
+    margin-bottom: 20px;
+  }
+
+  .Webpage-top h1 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #f2602bc7;
+    margin: 5px;
+    padding: 15px;
+  }
+  
+  .careers-form {
+    padding: 25px;
+    border: 1px solid #000000;
+    background-color: #faf7f7;
+  }
+
+  .careers-form.row {
+
+  }
+  
+  .careers-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .careers-form select,
+  .careers-form input[type="text"],
+  .careers-form input[type="email"],
+  .careers-form input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccccccd3;
+    border-radius: 5px;
+  }
+  
+  .careers-form input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  .careers-form input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .careers-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .Webpage-bottom2{
+    position: absolute;
+    left: 49%;
+    width: 102%;
+    transform: translate(-50%,10%);
+    height: 125px;
+    background-color: #f2602bc7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 58px;
+    padding: 5px;
+}
+.bottom-text2 {
+    margin-top: 1%;
+    width: 350px;
+    text-align: center;
+
+}
+.bottom-text2, .bottom-text2 a {
+    width: 50%; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Courses */
+
+.Webpage3 {
+    margin-top: 15px;
+}
+.Webpage3 h1{ 
+    color: #f2602bc7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 7%;
+    text-align: left;
+    position: relative;
+    font-style:normal;
+
+  }
+
+  .Webpage3 .txtContainer3 {
+    margin-left: 7%;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+}
+
+  .Webpage3 .txtContainer3 p {
+    color: #000000;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    clear:right
+}
+
+
+.CoursesToChoose {
+    margin-left: 25%;
+    background-color: #f2602bc7;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    display: inline-block;
+
+}
+
+.CoursesToChoose .CoursesLinks h2 {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    margin: 15px;
+}
+.CoursesToChoose .CoursesLinks img {
+    height: 200px;
+    width: 200px;
+
+}
+
+.Webpage-bottom3{
+    position: absolute;
+    left: 49%;
+    width: 102%;
+    transform: translate(-50%,10%);
+    height: 125px;
+    background-color: #f2602bc7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 58px;
+    padding: 5px;
+}
+.bottom-text3 {
+    margin-top: 1%;
+    width: 350px;
+    text-align: center;
+
+}
+.bottom-text3, .bottom-text3 a {
+    width: 50%; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Contact Us */
+.Webpage-top h1 {
+    text-align: center;
+  }
+
+/* Career */
+
+}

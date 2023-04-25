@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+    <!--Displays page title, allowing us to use certain fonts from google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&family=Old+Standard+TT&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Old+Standard+TT&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Creates  a class that allocates the links to the header class-->
+    <section class="header"> 
+        <nav>
+            <a href="index.html"><img src="images/beanLogo.png" class="logo" width="250" height="250"></a>
+            <div class="nav-links">
+            </li>
+                <ul>
+                    <li><a href="Profiles.html">PROFILES</a></li>
+                    <li><a href="Careers.html" class = "activeProfile">CAREERS</a></li>
+                    <li><a href="Courses.html">COURSES</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul> 
+            </div>
+        </nav>
+    </section> 
+    <div class="Webpage2">
+        <div class="Webpage-top">
+          <h1>Careers</h1>
+          <div class="txtContainer2"></div>
+          <div class="careers-form">
+            <form action="https://formspree.io/f/moqzyyne" method="POST"
+              <label for="job_title">Select a position:</label><br>
+              <select id="job_title" name="job">
+                <option value="job1">IT technician</option>
+                <option value="job2">Senior Web Developer - Front End</option>
+                <option value="job3">Senior Web Developer - Back End</option>
+                <option value="job4">Junior Web Developer - Front End</option>
+                <option value="job5">Junior Web Developer - Back End</option>
+              </select><br>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="First_Name">First Name:</label><br>
+                  <input type="text" id="First_Name" name="First_Name"><br>
+                </div>
+                <div class="form-group">
+                  <label for="Last_Name">Last Name:</label><br>
+                  <input type="text" id="Last_Name" name="Last_Name"><br>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email:</label><br>
+                  <input type="email" id="email" name="email"><br>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number:</label><br>
+                  <input type="tel" id="phone" name="phone"><br>
+                </div>
+              </div>
+      
+              <div class="form-group">
+                <label for="cv">Upload your CV:</label><br>
+                <input type="file" id="cv" name="cv"><br>
+              </div>
+              <input type="submit" value="Submit Applicant">
+            </form>
+          </div>
+        </div>
+      </div>
+      
+        <!--The Footer-->
+        <div class="Webpage-bottom2">
+            <div class="bottom-text2"><p>HotbeansCompany@2023</p></div>
+            <div class="bottom-text2"><p><a href="https://www.gov.uk/guidance/exceptions-to-copyright#teaching">Protected under-FairUse</a></p></div>
+            <div class="bottom-text2"><p>Email : notreply.hotbeans@gmail.com - Copyright™</p></div>
+            <div class="bottom-text2"><p>Tel: 071498523457</p></div>
+        </div>
+    </div> 
+</body>
+</html>

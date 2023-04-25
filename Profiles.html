@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+    <!--Displays page title, allowing us to use certain fonts from google-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&family=Old+Standard+TT&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Old+Standard+TT&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profiles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Creates  a class that allocates the links to the header class-->
+    <section class="header"> 
+        <nav>
+            <a href="index.html"><img src="images/beanLogo.png" class="logo" width="250" height="250"></a>
+            <div class="nav-links">
+            </li>
+                <ul>
+                    <li><a href="Profiles.html" class = "activeProfile">PROFILES</a></li>
+                    <li><a href="Careers.html">CAREERS</a></li>
+                    <li><a href="Courses.html">COURSES</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section> 
+    <div class="Webpage">
+        <!-- Blue Box with 4 Profiles  -->
+        <script src="script.js"></script>  <!-- Calls functions i created in order to create a carousel -->
+        <div class="blue-box">
+            <img src="images/ChristopherEcoli.png" alt="Image 1">
+            <a class="prev" onclick="prevSlide()">&#10094;</a> 
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+
+        <!--The Footer-->
+        <div class="Webpage-bottom1">
+            <div class="bottom-text1"><p>HotbeansCompany@2023</p></div>
+            <div class="bottom-text1"><p><a href="https://www.gov.uk/guidance/exceptions-to-copyright#teaching">Protected under-FairUse</a></p></div>
+            <div class="bottom-text1"><p>Email : notreply.hotbeans@gmail.com - Copyright™</p></div>
+            <div class="bottom-text1"><p>Tel: 071498523457</p></div>
+        </div>
+    </div>
+</body>
+</html>
+

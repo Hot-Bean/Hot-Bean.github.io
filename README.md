@@ -1,2 +1,6 @@
-# hotbeans-
-Hotbean open source website. Feel free to use, credits to notAkkeri.
+# notAkkeri-HotBeans.github.io
+# Open-Source  HotBeans website 
+
+
+
+All rights recieved, all assests are of "notAkkeri"
