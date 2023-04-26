@@ -236,6 +236,25 @@ nav {
     color: #ffffff;
 }
 
+
+.blue-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+  
+.image {
+    width: 50%;
+    /* margin-right: 20px; */
+}
+.textbox {
+    width: 50%;
+    margin-top: 0%;
+    font-size: 200%;
+
+}
+
 /* Careers */
 
 .Webpage2 {
@@ -414,7 +433,4 @@ nav {
 .Webpage-top h1 {
     text-align: center;
   }
-
-/* Career */
-
 }
