@@ -199,14 +199,23 @@ nav {
   font-weight: bold;
   color: black;
   cursor: pointer;
+  transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
+
 }
 
 .prev {
-  left: 5%;
+  left: 12%;
 }
 
 .next {
-  right: 70%;
+  right: 62%;
+}
+
+.prev:hover,
+.next:hover{
+  color: #5aa0f5;
+  transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
+
 }
 
 
@@ -262,7 +271,6 @@ nav {
     font-family: Arial, sans-serif;
     font-size: 16px;
     width: 500px;
-    margin: 0 auto;
     padding: 20px;
   }
   
@@ -270,25 +278,59 @@ nav {
     margin-bottom: 20px;
   }
 
+video {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+
   .Webpage-top h1 {
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #f2602bc7;
+    margin: 15px;
+    padding: 10px;
+  }
+  .txtContainerA{
+    margin: 20px;
+    font-size: 15px;
+  }
+  .Webpage-top h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #f2602bc7;
+  }
+  .Webpage-top h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #f2602bc7;
+    margin-left: 660px;
+  }
+  .Webpage-top p {
+    padding: 20px;
     margin: 5px;
-    padding: 15px;
   }
   
   .careers-form {
+    padding: 2%;
+    margin-left: 640px;
+    width: 70%;
+    display: flex;
     padding: 25px;
     border: 1px solid #000000;
     background-color: #faf7f7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
   }
-
   
   .careers-form label {
-    display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-right: 15px;
   }
   
   .careers-form select,
@@ -296,31 +338,37 @@ nav {
   .careers-form input[type="email"],
   .careers-form input[type="tel"] {
     width: 100%;
-    padding: 5px;
+    padding: 8px;
+    margin-top: 10px;
     margin-bottom: 10px;
+    margin-right: 10px;
     border: 1px solid #ccccccd3;
     border-radius: 5px;
   }
   
   .careers-form input[type="file"] {
     margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   .careers-form input[type="submit"] {
-    display: block;
     margin-top: 20px;
+    margin-left: 200px;
     padding: 10px;
     background-color: #4CAF50;
     color: #fff;
-    border: none;
+    border: 3px black;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-  }
-  
+    transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
+    float: right;
+}
+
   .careers-form input[type="submit"]:hover {
-    background-color: #3e8e41;
+    background-color: #5aa0f5;
+    transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
   }
   .Webpage-bottom2{
     position: absolute;
@@ -353,6 +401,7 @@ nav {
 .Webpage3 {
     margin-top: 15px;
 }
+
 .Webpage3 h1{ 
     color: #f2602bc7;
     font-family: 'Open Sans', sans-serif;
@@ -430,7 +479,66 @@ nav {
 }
 
 /* Contact Us */
-.Webpage-top h1 {
-    text-align: center;
-  }
+.container4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
+
+.container4 p {
+  margin-bottom: 10px;
+}
+
+  .contact-form {
+    max-width: 950px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    border: 1px solid #000000;
+  }
+  
+  .contact-form label {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #f2602bc7;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+  }
+  
+  .contact-form input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+   
+    cursor: pointer;
+    float: right;
+    transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
+  }
+
+  .contact-form input[type="submit"]:hover {
+    background-color: #5aa0f5;
+    transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
+  }
+
+      }
