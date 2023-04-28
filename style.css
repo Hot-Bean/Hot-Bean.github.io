@@ -42,15 +42,9 @@ justify-content: flex-end;
   padding: 0;
 }
 .nav-links ul li {
-<<<<<<< HEAD
   margin-right: 30px;
   padding: 6px 8px;
   position:relative
-=======
-    margin-right: 30px;
-    padding: 6px 8px;
-    position:relative
->>>>>>> 8a17fcbd774deb3d3759e28cbf7c76d836a121ae
 }
 .nav-links ul li a {
   color: #ef8b11;
@@ -148,7 +142,6 @@ float: right;
 
 
 .Webpage-bottom{
-<<<<<<< HEAD
   position: absolute;
   left: 49%;
   width: 102%;
@@ -161,20 +154,6 @@ float: right;
   align-items: center;
   margin-top: 5%;
   padding: 1%;
-=======
-    position: absolute;
-    left: 49%;
-    width: 102%;
-    transform: translate(-50%,10%);
-    height: 40px;
-    background-color: #ef8b11;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5%;
-    padding: 1%;
->>>>>>> 8a17fcbd774deb3d3759e28cbf7c76d836a121ae
 }
 .bottom-text {
   margin-top: 1%;
@@ -189,7 +168,6 @@ float: right;
 }
 /* Profiles */
 
-<<<<<<< HEAD
   .blue-box {
       position: relative;
       align-items: center;
@@ -200,18 +178,6 @@ float: right;
       margin-right: 5%;
       color:white;
       }
-=======
-    .blue-box {
-        position: relative;
-        align-items: center;
-        justify-content: center;
-        background-color: #e69d18;
-        border: 2.5px solid black;
-        margin-left: 5%;
-        margin-right: 5%;
-        color:white;
-        }
->>>>>>> 8a17fcbd774deb3d3759e28cbf7c76d836a121ae
 
 .blue-box img {
 margin: 2.5%;
@@ -251,7 +217,6 @@ transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
 
 
 .Webpage-bottom1 {
-<<<<<<< HEAD
   position: absolute;
   left: 49%;
   width: 102%;
@@ -265,21 +230,6 @@ transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
   margin-top: 5%;
   padding: 1%;
   }
-=======
-    position: absolute;
-    left: 49%;
-    width: 102%;
-    transform: translate(-50%,10%);
-    height: 40px;
-    background-color: #ef8b11;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5%;
-    padding: 1%;
-    }
->>>>>>> 8a17fcbd774deb3d3759e28cbf7c76d836a121ae
 .bottom-text1 {
   margin-top: 1%;
   width: 350px;
@@ -314,7 +264,6 @@ transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
 /* Careers */
 
 .Webpage2 {
-<<<<<<< HEAD
   font-family: Arial, sans-serif;
   font-size: 16px;
   width: 500px;
@@ -324,17 +273,6 @@ transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
 .Webpage-top {
   margin-bottom: 20px;
 }
-=======
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    width: 500px;
-    padding: 20px;
-  }
-  
-  .Webpage-top {
-    margin-bottom: 20px;
-  }
->>>>>>> 8a17fcbd774deb3d3759e28cbf7c76d836a121ae
 
 video {
 width: 100%; 
@@ -374,7 +312,6 @@ margin: 0 auto;
   margin: 5px;
 }
 
-<<<<<<< HEAD
 .careers-form {
   padding: 2%;
   margin-left: 640px;
@@ -443,26 +380,6 @@ margin: 0 auto;
       margin-top: 5%;
       padding: 1%;
   }
-=======
-  .careers-form input[type="submit"]:hover {
-    background-color: #5aa0f5;
-    transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
-  }
-    .Webpage-bottom2 {
-        position: absolute;
-        left: 49%;
-        width: 102%;
-        transform: translate(-50%,10%);
-        height: 40px;
-        background-color: #ef8b11;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 5%;
-        padding: 1%;
-    }
->>>>>>> 8a17fcbd774deb3d3759e28cbf7c76d836a121ae
 .bottom-text2 {
   margin-top: 1%;
   width: 350px;
@@ -518,34 +435,6 @@ margin: 0 auto;
       display: inline-block;
   }
 
-<<<<<<< HEAD
-=======
-  .Webpage3 .txtContainer3 {
-    margin-left: 7%;
-    font-size: 20px;
-    font-style: normal;
-    text-align: left;
-}
-
-  .Webpage3 .txtContainer3 p {
-    color: #000000;
-    font-family: 'Merriweather', serif;
-    font-size: 20px;
-    clear:right
-}
-
-
-    .CoursesToChoose {
-        margin-left: 25%;
-        background-color: #e69d18;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px;
-        display: inline-block;
-    }
-
->>>>>>> 8a17fcbd774deb3d3759e28cbf7c76d836a121ae
 .CoursesToChoose .CoursesLinks h2 {
   color: white;
   font-family: 'Merriweather', serif;
@@ -558,7 +447,6 @@ margin: 0 auto;
 
 }
 
-<<<<<<< HEAD
   .Webpage-bottom3 {
       position: absolute;
       left: 49%;
@@ -573,22 +461,6 @@ margin: 0 auto;
       margin-top: 20px;
       padding: 1%;
   }
-=======
-    .Webpage-bottom3 {
-        position: absolute;
-        left: 49%;
-        width: 102%;
-        transform: translate(-50%,10%);
-        height: 30px;
-        background-color: #ef8b11;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 20px;
-        padding: 1%;
-    }
->>>>>>> 8a17fcbd774deb3d3759e28cbf7c76d836a121ae
 .bottom-text3 {
   margin-top: 1%;
   width: 350px;
@@ -603,19 +475,11 @@ margin: 0 auto;
 
 /* Contact Us */
 .container4 {
-<<<<<<< HEAD
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 margin-top: 0px;
-=======
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0px;
->>>>>>> 8a17fcbd774deb3d3759e28cbf7c76d836a121ae
 }
 
 .container4 p {
