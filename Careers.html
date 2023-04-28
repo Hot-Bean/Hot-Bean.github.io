@@ -6,8 +6,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&family=Old+Standard+TT&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Old+Standard+TT&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Careers</title>
     <link rel="stylesheet" href="style.css">
@@ -18,7 +16,6 @@
         <nav>
             <a href="index.html"><img src="images/beanLogo.png" class="logo"></a>
             <div class="nav-links">
-            </li>
                 <ul>
                     <li><a href="Profiles.html">PROFILES</a></li>
                     <li><a href="Careers.html" class = "activeProfile">CAREERS</a></li>
@@ -29,68 +26,70 @@
         </nav>
     </section> 
     <div class="Webpage2">
-      <div class="Webpage-top">
-        <h1> Careers </h1>
-          <div class = "txtContainerA">
-            <h2> Why us?</h2> 
-            <p>
-              <br>Here's a video on the exicting opportunities we have to offer!<br>
-            </p>
-            <div class = "videoContainer">
-              <video controls>
-                <source src="Videos/HotbeansPromotion.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>   
-          <h3><br>Application <br>Form <br></h3>
-              <div class="careers-form">
-                <form action="https://formspree.io/f/moqzyyne" method="POST">
-                  <label for="job_title">Select a position:</label><br>
-                  <select id="job_title" name="job">
-                    <option value="job1">Senior Web Developer - Front End</option>
-                    <option value="job2">Senior Web Developer - Back End</option>
-                    <option value="job3">Junior Web Developer - Front End</option>
-                    <option value="job4">Junior Web Developer - Back End</option>
-                    <option value="job5">IT technician</option>
-                  </select><br>
-                  <div class="form-row">
-                    <div class="form-group">
-                      <label for="First_Name">First Name:</label><br>
-                      <input type="text" id="First_Name" name="First_Name"><br>
-                    </div>
-                    <div class="form-group">
-                      <label for="Last_Name">Last Name:</label><br>
-                      <input type="text" id="Last_Name" name="Last_Name"><br>
-                    </div>
+        <div class="Webpage-top">
+            <h1> Careers </h1>
+            <div class="video-form-container">
+                <div class="videoContainer">
+                    <video controls>
+                        <source src="Videos/HotbeansPromotion.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="careers-form2">
+                    <h3>Application Form</h3>
+                    <form action="https://formspree.io/f/moqzyyne" method="POST">
+                      <label for="job_title">Select a position:</label>
+                      <select id="job_title" name="job">
+                        <option value="job1">Senior Web Developer - Front End</option>
+                        <option value="job2">Senior Web Developer - Back End</option>
+                        <option value="job3">Junior Web Developer - Front End</option>
+                        <option value="job4">Junior Web Developer - Back End</option>
+                        <option value="job5">IT technician</option>
+                      </select>
+                      <div class="form-row2">
+                        <div class="form-group2">
+                          <label for="First_Name">First Name:</label>
+                          <input type="text" id="First_Name" name="First_Name">
+                        </div>
+                        <div class="form-group2">
+                          <label for="Last_Name">Last Name:</label>
+                          <input type="text" id="Last_Name" name="Last_Name">
+                        </div>
+                      </div>
+                      <div class="form-row2">
+                        <div class="form-group2">
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="Email">
+                        </div>
+                        <div class="form-group2">
+                          <label for="phone">Phone:</label>
+                          <input type="tel" id="phone" name="Phone">
+                        </div>
+                      </div>
+                      <div class="form-row2">
+                        <div class="form-group2">
+                          <label for="CV">CV:</label>
+                          <input type="file" id="CV" name="CV">
+                        </div>
+                        <div class="form-group2">
+                          <label for="message">Message:</label>
+                          <textarea id="message" name="Message"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-row2">
+                        <div class="form-group2">
+                          <input type="submit" value="Submit">
+                        </div>
+                      </div>
+                    </form>
                   </div>
-                  <div class="form-row">
-                    <div class="form-group">
-                      <label for="email">Email:</label><br>
-                      <input type="email" id="email" name="email"><br>
-                    </div>
-                    <div class="form-group">
-                      <label for="phone">Phone Number:</label><br>
-                      <input type="tel" id="phone" name="phone"><br>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="cv">Upload your CV:</label><br>
-                    <input type="file" id="cv" name="cv"><br>
-                  </div>
-                  <input type="submit" value="Submit Applicant">
-              </form>
+                  
+          <!--The Footer-->
+          <div class="Webpage-bottom2">
+              <div class="bottom-text2"><p>HotbeansCompany@2023</p></div>
+              <div class="bottom-text2"><p><a href="https://www.gov.uk/guidance/exceptions-to-copyright#teaching">Protected under-FairUse</a></p></div>
+              <div class="bottom-text2"><p>Email : notreply.hotbeans@gmail.com - Copyright™</p></div>
+              <div class="bottom-text2"><p>Tel: 071498523457</p></div>
           </div>
-
-        </div>
-      </div>
+      </div> 
       
-        <!--The Footer-->
-        <div class="Webpage-bottom2">
-            <div class="bottom-text2"><p>HotbeansCompany@2023</p></div>
-            <div class="bottom-text2"><p><a href="https://www.gov.uk/guidance/exceptions-to-copyright#teaching">Protected under-FairUse</a></p></div>
-            <div class="bottom-text2"><p>Email : notreply.hotbeans@gmail.com - Copyright™</p></div>
-            <div class="bottom-text2"><p>Tel: 071498523457</p></div>
-        </div>
-    </div> 
-</body>
-</html>
+                        
