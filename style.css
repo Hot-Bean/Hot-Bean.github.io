@@ -17,8 +17,8 @@ body{
 @media only screen and (min-width:425px){
   
 .logo {
-  height: 10vw;
-  width: 10vw;
+  height: 103vw;
+  width: 104vw;
   padding: 0.5% 0.5%;
 }
 
@@ -272,7 +272,7 @@ transition: color 0.45s ease-in-out, background-color 0.45s ease-in-out;
 
 .Webpage-top h1 {
   margin: 0;
-  color:#e69d18;
+  color:#ef8b11;
 }
 
 .video-form-container {
